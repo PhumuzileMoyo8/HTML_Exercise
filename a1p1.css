@@ -1,4 +1,38 @@
-ul li{
+body{
+ padding: 10px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+}
+ li a {
+	display: block;
+ }
+
+#Menu ul {
+	display: flex;
+}
+
+#Menu li {
+	padding: 1px calc(1.5 * 5px);
+	float: left;
+}
+
+#Menu li:not(:last-of-type) {
+	border-right: 2px solid rgb(199, 196, 196);
+  }
+
+.footer-copyright a {
 	text-decoration: none;
-	padding-left: .5em;
+	color: inherit;
+  }
+
+.basket-favourites button {
+	border-radius: 5px;
+	background-color: rgb(136, 137, 137);
+	border-style: none;
+  }
+.subheading {
+	padding: 5px;
 }
