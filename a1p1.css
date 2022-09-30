@@ -2,6 +2,10 @@ body{
  padding: 10px;
 }
 
+#mc-portrait {
+	padding: 5px 40px 5px;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
