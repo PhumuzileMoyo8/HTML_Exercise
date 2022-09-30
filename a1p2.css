@@ -17,10 +17,6 @@ section {
   border: 1px solid gray;
 }
 
-.navbar-link {
-  color: #ff3d00;
-}
-
 #copyright {
   color: white;
 }
@@ -31,7 +27,7 @@ section {
 }
 
 .actions {
-  background-color: hsl(200, 18%, 46%);
+  background-color: #607d8b;
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
@@ -129,6 +125,7 @@ nav a,
   color: #ff3d00;
 }
 
+#mainMenu a:hover,
 nav a:hover {
   color: white;
   background-color: #ff3d00;
@@ -157,7 +154,7 @@ nav a:hover {
 body {
   background-color: #eceff1;
   color: #283649;
-  font-family: "Alegreya SC";
+  font-family: "Alegreya SC", serif;
 }
 
 details {
