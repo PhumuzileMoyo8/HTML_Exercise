@@ -21,7 +21,7 @@ section {
   color: white;
 }
 
-#white {
+.white {
   background-color: white;
   padding: 10px 10px 10px;
 }
@@ -67,7 +67,7 @@ a.actionFlag {
   text-decoration: none;
   color: white;
 }
-article div img {
+article div {
   margin-top: 2em;
   margin-bottom: 0.5em;
   border: 2px solid silver;
@@ -147,7 +147,7 @@ nav a:hover {
   text-align: center;
 }
 
-#orange {
+.orange {
   color: #ff3d00;
 }
 
