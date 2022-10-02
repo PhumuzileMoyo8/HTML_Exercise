@@ -114,6 +114,10 @@ ol {
   font-weight: bold;
 }
 
+ol li {
+  color: #ff3d00;
+}
+
 li span {
   font-weight: normal;
   color: #283649;
